@@ -1,6 +1,6 @@
 from troposphere.iam import InstanceProfile, PolicyType as IAMPolicy, Role
 from awacs.aws import Action, Allow, Policy, Principal, Statement
-from awacs.sts im port AssumeRole
+from awacs.sts import AssumeRole
 from troposphere import Base64, FindInMap, GetAtt
 from troposphere import Parameter, Output, Ref, Template, Join
 import troposphere.ec2 as ec2
