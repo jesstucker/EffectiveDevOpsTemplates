@@ -84,7 +84,7 @@ template.add_resource(InstanceProfile(
 template.add_resource(IAMPolicy(
     "Policy",
     PolicyName="AllowS3",
-    PolicyDocuent=Policy(
+    PolicyDocument=Policy(
         Statement=[
             Statement(
                 Effect=Allow,
